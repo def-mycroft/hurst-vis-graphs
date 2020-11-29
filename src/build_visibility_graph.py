@@ -1,5 +1,6 @@
 """Functions used to create a visibility graph"""
 import pandas as pd 
+
 # TODO - maybe remove these later, used for optimizing number of calls 
 CALLS_CONNECTEDNESS = 0
 CALLS_POINTS_CONNECTED = 0
@@ -16,7 +17,22 @@ def connectedness_criteria_mid(y, left, right, mid):
     
     This evalates one point "c" (mid) between "a" (left) and "b"
     (right).
-    
+
+    Parameters
+    ----------
+    y : list
+        y values of time series. 
+
+    left, right, mid : int
+        Indices of y that correspond to the points to be evaulated,
+        where mid is the point between x left and right.
+
+    Returns
+    -------
+    is_connected : bool
+        Truth value of connectedness of two points, based only on the
+        point mid. 
+
     """
     global CALLS_CONNECTEDNESS
     # TODO - drop assertions, or provide option to suppress for speed
@@ -30,7 +46,27 @@ def connectedness_criteria_mid(y, left, right, mid):
 
 
 def points_connected(x, y, left, right):
-    """Evaluate connectedness of two points"""
+    """Returns True if two points are connected, else False 
+
+    Function connectedness_criteria_mid is applied across every point
+    that is between `left` and `right`. If the connectedness criteria
+    fails to hold for any mid point, False is returned, otherwise True
+    is returned
+
+    Parameters
+    ----------
+    x, y : list
+        Lists that are the time series. 
+
+    left, right : int
+        Indices of y that correspond to the points to be evaulated. 
+
+    Returns
+    -------
+    is_connected : bool
+        Truth value of connectedness of two points. 
+
+    """
     global CALLS_POINTS_CONNECTED
     # assume first that is connected 
     # note that all adjacent points on the time series are connected 
@@ -51,19 +87,28 @@ def points_connected(x, y, left, right):
 
 
 def create_edges(x, y):
-    """docstring for create_gaph
+    """Creates an edge set of a visibility graph from time series x,y
 
-    TODO - Write descriptive docstring for create_gaph function.
+    Create visiblity graph from a time series. Argument `x` is the time
+    dimension of the series, and argument `y` is the "height" of the
+    time series at position `x`. 
+
+    For every x_i in x, func `points_connected` is used to evaluate
+    every other point x_j in x. Points are evaluated from left to right,
+    so that no two points are evaluated twice. 
+
+    Additional work could be done to speed up this function, this isn't
+    likely a fast implementation. 
 
     Parameters
     ----------
-     : <class>
-        <desc>
+    x, y : list
+        Lists that are the time series. 
 
     Returns
     -------
-    <varname : class>
-        <desc>
+    edges : list of tuples
+        List of tuples that represent edges. 
 
     """
     # create graph edges
