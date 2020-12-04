@@ -17,3 +17,5 @@ Lacasa, L., Nicosia, V., Latora, V. (2015). Network structure of multivariate ti
 Graves, T., Gramacy, R. B., Watkins, N. & Franzke, C. (2017). A Brief History of Long Memory: Hurst, Mandelbrot and the Road to ARFIMA, 1951–1980. Entropy. https://dx.doi.org/10.3390/e19090437
 
 Bachelier, L. (1900) Theory of Speculation. Scientific annals of the École Normale Supérieure, Serie 3, Volume 17, pp. 21-86. https://dx.doi.org/10.24033/asens.476
+
+Davies, R. B. & Harte, D. S. (1987) Tests for Hurst Effect. Biometrika 74, 95. https://dx.doi.org/10.2307/2336024
