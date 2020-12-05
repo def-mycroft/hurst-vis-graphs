@@ -1,21 +1,13 @@
-Mandelbrot, B. B. & Ness, J. W. V. (1968). Fractional Brownian Motions, Fractional Noises and Applications. Siam Rev 10, 422–437. https://epubs.siam.org/doi/10.1137/1010093
+Bachelier, L. “Théorie de La Spéculation.” Annales Scientifiques de l’École Normale Supérieure 17 (1900): 21–86. doi:10.24033/asens.476.
+
+Davies, R B & Harte, D S. 1987. «Tests for Hurst Effect». Biometrika 74 (1): 95. doi:10.2307/2336024.
+
+Graves, Timothy et al. 2017. «A Brief History of Long Memory: Hurst, Mandelbrot and the Road to ARFIMA, 1951–1980». Entropy (9). doi:10.3390/e19090437.
+
+Lacasa, Lucas et al. 2008. «From time series to complex networks: The visibility graph». Proceedings of the National Academy of Sciences 105 (13): 4972–4975. doi:10.1073/pnas.0709247105.
+
+Lacasa, L. et al. 2009. «The visibility graph: A new method for estimating the Hurst exponent of fractional Brownian motion». EPL 86 (3): 30001. doi:10.1209/0295-5075/86/30001.
+
+Mandelbrot, Benoit B & Ness, John W Van. 1968. «Fractional Brownian Motions, Fractional Noises and Applications». SIAM Review 10 (4): 422–437. doi:10.1137/1010093.
 
 Tsay, Ruey S. Analysis of Financial Time Series, Third Edition. 3rd ed. Wiley Series in Probability and Statistics. Hoboken, NJ: Wiley, 2010.
-
-Graves, T., Gramacy, R., Watkins, N., Franzke, C. (2017). A Brief History of Long Memory: Hurst, Mandelbrot and the Road to ARFIMA, 1951–1980 Entropy https://dx.doi.org/10.3390/e19090437
-
-Davies, R., Harte, D. (1987). Tests for Hurst Effect Biometrika  74(1), 95. https://dx.doi.org/10.2307/2336024
-
-Lo, A. (1991). Long-Term Memory in Stock Market Prices Econometrica  59(5), 1279. https://dx.doi.org/10.2307/2938368
-
-Lacasa, L., Luque, B., Luque, J., Nuño, J. (2009). The visibility graph: A new method for estimating the Hurst exponent of fractional Brownian motion EPL  86(3), 30001. https://dx.doi.org/10.1209/0295-5075/86/30001
-
-Lacasa, L., Luque, B., Ballesteros, F., Luque, J., Nuño, J. (2008). From time series to complex networks: The visibility graph Proceedings of the National Academy of Sciences  105(13), 4972-4975. https://dx.doi.org/10.1073/pnas.0709247105
-
-Lacasa, L., Nicosia, V., Latora, V. (2015). Network structure of multivariate time series Scientific Reports  5(1), 15508. https://dx.doi.org/10.1038/srep15508
-
-Graves, T., Gramacy, R. B., Watkins, N. & Franzke, C. (2017). A Brief History of Long Memory: Hurst, Mandelbrot and the Road to ARFIMA, 1951–1980. Entropy. https://dx.doi.org/10.3390/e19090437
-
-Bachelier, L. (1900) Theory of Speculation. Scientific annals of the École Normale Supérieure, Serie 3, Volume 17, pp. 21-86. https://dx.doi.org/10.24033/asens.476
-
-Davies, R. B. & Harte, D. S. (1987) Tests for Hurst Effect. Biometrika 74, 95. https://dx.doi.org/10.2307/2336024
